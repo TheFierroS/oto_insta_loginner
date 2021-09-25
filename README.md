@@ -1,1 +1,5 @@
-# oto_insta_loginner
+Basit Bir Python Selenium Örneği
+
+Bu programı kullanmaya gerek duymazsınız belki ama selenium mantıgını çözmek için kullanabilirsiniz
+
+İyi Kullanımlar :)
