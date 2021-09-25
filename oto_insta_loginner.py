@@ -5,7 +5,7 @@ import time
 #Program açık kaynak kod olduğu için hesabım çalınır mı diye korkmayın zaten programı kendi bilgisayarınızda çalıştırıyorsunuz :)
 username = input("Lütfen Kullanıcı Adı, Telefon Numarası veya E-Posta Adresinizi Giriniz : ") #kullanıcı adı girişi
 password = input("Lütfen Şifrenizi Giriniz : ") #şifre girişi
-dogrulama = input("Çift Haneli Doğrulamanız Aktif mi ? E/H : ") #.ift haneli doğrulama sorgusu
+dogrulama = input("Çift Haneli Doğrulamanız Aktif mi ? E/H : ") #çift haneli doğrulama sorgusu
  
 driver = webdriver.Firefox() #Eğer Chrome Tarayıcısı Kullanıyorsanız Firefox yazan kısmı Chrome olarak değiştirin
 driver.maximize_window()
