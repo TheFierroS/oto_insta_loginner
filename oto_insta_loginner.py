@@ -7,7 +7,7 @@ username = input("Lütfen Kullanıcı Adı, Telefon Numarası veya E-Posta Adres
 password = input("Lütfen Şifrenizi Giriniz : ") #şifre girişi
 dogrulama = input("Çift Haneli Doğrulamanız Aktif mi ? E/H : ") #çift haneli doğrulama sorgusu
  
-driver = webdriver.Firefox() #Eğer Chrome Tarayıcısı Kullanıyorsanız Firefox yazan kısmı Chrome olarak değiştirin
+driver = webdriver.Chrome() #Eğer Firefox Tarayıcısı Kullanıyorsanız Chrome yazan kısmı Firefox olarak değiştirin
 driver.maximize_window()
 
 #seleium ile ilgili kısım
